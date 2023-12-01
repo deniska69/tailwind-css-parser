@@ -1,0 +1,19 @@
+{
+  "name": "tailwind-css-parser",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": "https://github.com/deniska69/tailwind-css-parser.git",
+  "author": "deniska69 <gostev.dy@yandex.ru>",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {
+    "axios": "^1.6.2",
+    "cheerio": "^1.0.0-rc.12",
+    "fs": "^0.0.1-security",
+    "nodemon": "^3.0.2"
+  }
+}
