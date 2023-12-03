@@ -36,7 +36,9 @@ axios.get(URL).then((html) => {
 					}
 				});
 
-			result += `${i > 0 ? '\n\n' : ''}.${_className} {${_css}\n}`;
+			if (!_className.includes('.')) {
+				result += `${i > 0 ? '\n\n' : ''}.${_className} {${_css}\n}`;
+			}
 		});
 
 	writeFile(result);
